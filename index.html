@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room for Rent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .owner {
+            font-size: 20px;
+            font-weight: bold;
+            color: white; /* OWNER NAME IN WHITE */
+            margin-top: 5px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .photos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .photos img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .details {
+            background: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .details p {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+
+        .contact {
+            margin-top: 15px;
+            background: #dcfce7;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #e5e7eb;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Room Available for Rent</h1>
+    <div class="owner">Owner: Nilesh Jagtap</div>
+</header>
+
+<div class="container">
+
+    <div class="photos">
+        <img src="https://via.placeholder.com/400x300?text=Room+Photo+1">
+        <img src="https://via.placeholder.com/400x300?text=Room+Photo+2">
+        <img src="https://via.placeholder.com/400x300?text=Room+Photo+3">
+    </div>
+
+    <div class="details">
+        <p>💰 <strong>Monthly Rent:</strong> ₹4500</p>
+        <p>🔒 <strong>Deposit:</strong> ₹7000</p>
+
+        <div class="contact">
+            📞 Contact: 8181818181
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | Owner: Nilesh Jagtap
+</footer>
+
+</body>
+</html>
