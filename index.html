@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room for Rent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .owner {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .owner-details {
+            font-size: 16px;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .photos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .photos img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #e5e7eb;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Room Available for Rent</h1>
+    <div class="owner">Owner: Nilesh Jagtap</div>
+
+    <div class="owner-details">
+        💰 Monthly Rent: ₹4500 <br>
+        🔒 Deposit: ₹7000 <br>
+        📞 Contact: 8181818181
+    </div>
+</header>
+
+<div class="container">
+    <div class="photos">
+        <img src="https://via.placeholder.com/400x300?text=Room+Photo+1">
+        <img src="https://via.placeholder.com/400x300?text=Room+Photo+2">
+        <img src="https://via.placeholder.com/400x300?text=Room+Photo+3">
+    </div>
+</div>
+
+<footer>
+    © 2026 | Owner: Nilesh Jagtap
+</footer>
+
+</body>
+</html>
